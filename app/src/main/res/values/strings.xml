@@ -7,4 +7,7 @@
     <string name="btn_fav_books">Favourite Books</string>
     <string name="btn_about">About</string>
     <string name="footer_license">Developed by Atin at atinagnihotri.com</string>
+    <string name="card_author_text">Author :</string>
+    <string name="card_short_desc_text">Short Description :</string>
+
 </resources>

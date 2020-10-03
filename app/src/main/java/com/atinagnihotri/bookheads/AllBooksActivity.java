@@ -2,6 +2,7 @@ package com.atinagnihotri.bookheads;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -33,7 +34,8 @@ public class AllBooksActivity extends AppCompatActivity {
     private void initAdapter(){
         adapter = new ListBooksRecViewAdapter(this);
         listBooksRecyclerView.setAdapter(adapter);
-        listBooksRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+//        listBooksRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        listBooksRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private void setBooksStub(){
