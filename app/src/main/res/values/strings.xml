@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bookheads</string>
+    <string name="btn_list_all_books">List All Books</string>
+    <string name="btn_curr_reading_books">Books In Reading</string>
+    <string name="btn_list_read_books">Books Already Read</string>
+    <string name="btn_wish_list_books">Books Wish List</string>
+    <string name="btn_fav_books">Favourite Books</string>
+    <string name="btn_about">About</string>
+    <string name="footer_license">Developed by Atin at atinagnihotri.com</string>
+</resources>
